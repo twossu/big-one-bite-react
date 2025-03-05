@@ -1,0 +1,23 @@
+// 1. 변수(바 뀔 수 있 다)
+let age = 27;
+
+age = 30;
+
+// 2. 상수(바뀔 수 없 다.)
+const birth = "1997.01..7";
+
+// 3. 변수 명명규칙(네이밍 규칙0
+// 3-1. $, _ 제외한 기호는 사용할 수 없다.
+let $_name
+
+// 3-2. 숫자로 시작할 수 없다.
+let name1;
+let $2name; //이런 식으로 기호 사용 후 숫자사용가능
+
+// 3-3. 예약어를 사용할 수 없다.
+let if; //이런거
+
+// 4. 변수 명명 가이드 (변수명이 어떤건지 단어로 하면 나중에 좋다!)
+let salesCount = 1;
+let refundCount = 1;
+let totalSalescount = salesCount - refundCount;
